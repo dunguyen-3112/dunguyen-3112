@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-05T12:31:36.501Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="kRYcY44DzZlYIxAADeN_" version="21.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-05T12:38:45.525Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="A90EEaJ6rREYDphRmkxz" version="21.0.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1050" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1877" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -56,6 +56,42 @@
         </mxCell>
         <mxCell id="OUhb2QEN75pIKxEQ_v2V-23" value="Rescue service rating" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="20" y="400" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OUhb2QEN75pIKxEQ_v2V-28" value="&amp;lt;&amp;lt;extends&amp;gt;&amp;gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;endSize=16;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OUhb2QEN75pIKxEQ_v2V-27" target="OUhb2QEN75pIKxEQ_v2V-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OUhb2QEN75pIKxEQ_v2V-32" value="&amp;lt;&amp;lt;extends&amp;gt;&amp;gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endSize=16;endArrow=open;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OUhb2QEN75pIKxEQ_v2V-31" target="OUhb2QEN75pIKxEQ_v2V-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OUhb2QEN75pIKxEQ_v2V-35" value="&amp;lt;&amp;lt;extends&amp;gt;&amp;gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endSize=16;endArrow=open;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OUhb2QEN75pIKxEQ_v2V-34" target="OUhb2QEN75pIKxEQ_v2V-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OUhb2QEN75pIKxEQ_v2V-26" value="Sign In" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="710" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OUhb2QEN75pIKxEQ_v2V-27" value="Phone Number" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="450" y="710" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OUhb2QEN75pIKxEQ_v2V-29" value="Facebook" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="330" y="560" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OUhb2QEN75pIKxEQ_v2V-31" value="Google" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="400" y="860" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OUhb2QEN75pIKxEQ_v2V-33" value="&amp;lt;&amp;lt;extends&amp;gt;&amp;gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endSize=16;endArrow=open;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OUhb2QEN75pIKxEQ_v2V-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="790" as="sourcePoint" />
+            <mxPoint x="250" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OUhb2QEN75pIKxEQ_v2V-37" value="&amp;lt;&amp;lt;extends&amp;gt;&amp;gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;endSize=16;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="OUhb2QEN75pIKxEQ_v2V-36" target="OUhb2QEN75pIKxEQ_v2V-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OUhb2QEN75pIKxEQ_v2V-34" value="Sign up Info" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-90" y="660" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="OUhb2QEN75pIKxEQ_v2V-36" value="Sign up Rescue" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="90" y="530" width="140" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
